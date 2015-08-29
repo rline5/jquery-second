@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="../lib/jquery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/siginin.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+
+    <script type="text/javascript" src="../js/login.js"></script>
+    
+    <title>로그인</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form-signin">
+            <h2 class="form-signin-heading">Please sign in</h2>
+
+            <p>
+                <input type="email" id="inputEmail" class="form-control required" placeholder="Email address">
+                <font color="red"> Email은 필수 입력입니다.</font>
+            </p>
+
+            <p>
+                <input type="text" id="inputPassword" class="form-control required" placeholder="Password">
+                <font color="red"> Password는 필수 입력입니다.</font>
+            </p>
+            <p>
+                <input type="text" id="inputPasswordConfirm" class="form-control required" placeholder="Password Confirm">
+                <font color="red"> Password Confirm은 필수 입력입니다.</font>
+                <font color="red"> Password와 PasswordConfirm이 다릅니다.</font>
+            </p>
+
+            <p>
+                <button type="button" id="btnLogin" class="btn btn-lg btn-primary btn-block">Log in</button>
+            </p>
+        </form>
+    </div> <!-- /container -->
+</body>
+</html>
