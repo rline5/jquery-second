@@ -26,12 +26,7 @@ $ bower install bootstrap --save : 부트스트랩 최신버전 설치
 $ bower install : bower 설치
 
 
-
-
-
-
-
-
+npm install은 node와 관련된 것들 다 설치할수 있다.
 
 
 
