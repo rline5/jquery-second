@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="../lib/jquery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/siginin.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+
+    <script type="text/javascript" src="../js/user.js"></script>
+    <script>
+$(function(){
+
+    $('input').keydown(function(){
+
+        var inputTxt = $('input').attr('val');
+        console.log(inputTxt);
+        $('h3 > span').clone(inputTxt);
+
+    })
+
+ 
+});
+    </script>
+    <title>로그인</title>
+</head>
+<body>
+   <span>Insert your name: </span>
+   <input type="text" value="" />
+   <h3>Echo: <span></span> </h3>
+</body>
+</html>

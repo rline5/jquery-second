@@ -1,0 +1,25 @@
+{
+  "name": "jquery-second",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rline5/jquery-second",
+  "authors": [
+    "rline5 <dogmarose@naver.com>"
+  ],
+  "description": "front project for jquery study",
+  "keywords": [
+    "jquery",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}
