@@ -39,3 +39,60 @@ npm install은 node와 관련된 것들 다 설치할수 있다.
 
 3. ajax
 
+git bash  실행후 package .json 설치를 위해
+
+npm init 
+
+나머지는 enter 후 yes 하면 
+
+jquery-second 폴더내에 bower_components  폴더가 새로 생김.
+
+
+다시 git bash에서
+npm install express --save 로 외부 프로그램을 설치한다.
+
+
+==> express는
+노드js 기반으로 웹프로젝트 프레임워크
+
+
+ctrl + c 는 서버를 멈추고,
+git bash에서 다시 node app.js 를 실행한다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===========================
+<script>alert('111')
+<br>222<br>ddd
+jojoldu or=
+
+
